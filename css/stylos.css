@@ -1,0 +1,808 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600;700;800&family=Nunito:wght@400;800&family=Poppins:ital,wght@1,100;1,600&display=swap');
+
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+
+
+
+
+/* NAVBAR bootstrap + css */
+.navBar{
+   background-color: white;
+    margin-left: 30px;
+    padding: 1px;
+    gap: 1px;
+   
+}
+.navBar li{
+    border: 2px solid black;
+ 
+    border-radius: 10px;
+}
+.navBar li a{
+    color: black;
+ 
+}
+.navBar li:hover{
+    background-color:rgba(214, 213, 131, 0.568);
+    
+}
+.dropnavBar li a:hover{
+    background-color:rgba(214, 213, 131, 0.568); ;
+    
+}
+/* MEDIA NAVBAR */
+
+@media(max-width: 768px){
+    .logonav{
+       
+
+        width: 350px;
+    }
+}
+@media(max-width: 550px){
+    .logonav{
+        
+
+        width: 250px;
+    }
+}
+@media(max-width: 360px){
+    .logonav{
+     
+        
+        width: 150px;
+    }
+}
+@media(max-width: 320px){
+    .logonav{
+        
+        width: 100px;
+    }
+}
+/* CORONA Y TITULO DE TODOS LOS HTML */
+.comienzo{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.comienzo img{
+    width: 100px;
+}
+
+
+/* ACA ARRANCA LA SECCION SERVICIOS */
+.tituloverificado{
+margin: 30px 30px;
+
+}
+
+
+
+.titulopgnserv{
+padding: 10px;
+color: white;
+text-shadow: 2px 3px 5px black;
+text-align: center;
+font-size: 40px;
+
+}
+
+.titulopgns{
+padding: 10px ;
+font-size: 30px;
+font-style: oblique;
+text-align: center;
+margin-top: 30px;
+
+}
+.verificado{
+margin: 30px 10px ;
+justify-content: center;
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+
+}
+
+
+.servicios{
+display: flex;
+flex-wrap: wrap;
+margin: 10px 20px;
+box-shadow: 0 4px 8px 0 black, 0 6px 20px rgba(0,0,0,0.19);
+float: left;
+width: 200px;
+height: 300px;
+padding-bottom: 40px;
+
+}
+
+
+
+.servicios div img{
+
+width: 100%;
+height: auto;
+
+}
+
+.pieservis{
+width: 200px;
+text-shadow: 2px 2px 5px black;
+padding: 10px;
+
+
+}
+.pieservis p {
+    text-align: center;
+}
+.caracteristicas{
+font-style: oblique;
+font-size: small;
+}
+
+/* ACA ARRANCA LA GALERIA */
+
+
+.titulonuestrascosas{
+width: 100%;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.titulonuestrascosas h2{
+
+font-size: 30px;
+font-style: oblique;
+text-align: center;
+padding-top: 30px;
+}
+
+.nuestras-cosas{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+
+}
+
+
+.galeria{
+margin: 20px 20px;
+box-shadow: 0 4px 8px 0 lightgray, 0 6px 20px rgba(0,0,0,0.19);
+float: left;
+width: 200px;
+height: auto;
+padding: 20px 10px;
+}
+
+
+.galeria img{
+width: 100%;
+height: auto;
+}
+
+
+.galeria:hover{
+border: 2px solid lightslategrey;
+transform: rotate(-3deg);
+}
+
+
+.pie{
+text-align: center;
+text-shadow: 2px 2px 5px grey;
+padding: 10px;
+
+}
+.pie a{
+text-decoration: none;
+text-align: center;
+color: black;
+text-shadow: 2px 2px 5px black;
+padding: 10px;
+
+}
+/* ESTO ES SECCION RESEÑAS */
+
+
+/* ACA VA LA SECCION GALERIA DE COLCHONES */
+.opciones{
+width: 100%;
+display: flex;
+
+flex-wrap: wrap;
+gap: 10px;
+margin: auto;
+
+}
+
+
+.elijo-espuma{
+width: 320px;
+height: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 3px solid black;
+border-radius: 10px;
+
+}
+
+.elijo-espuma a{
+list-style: none;
+text-decoration: none;
+text-align: center;
+color:white;
+font-size:x-large;
+font-style:oblique;
+border: 1px solid black;
+background-color: black;
+padding: 20px 10px;
+margin: 30px ;
+justify-content: center;
+
+
+}
+
+
+.elijo-espuma img{
+width: 200px;
+padding: 3px;
+justify-content: center;
+align-items: center;
+
+}
+
+
+.elijo-espuma p{
+    width: 300px;
+font-size: medium;
+font-style: italic;
+font-weight: 100;
+
+text-align: center;
+padding: 10px;
+
+
+}
+.poket{
+margin-bottom: 20px;
+}
+.elijo-espuma a:hover{
+transform: rotate(-3deg);
+}
+
+
+.medidas{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+text-align: center;
+align-items: center;
+justify-content: center;
+padding: 30px;
+
+}
+
+
+.medidas h2{
+font-size: 30px;
+font-style: oblique;
+text-align: center;
+padding-top: 30px;
+
+}
+
+
+.medidas button{
+margin: 20px 30px;
+width: 150px;
+display: flex;
+flex-direction: row;
+background-color: black;
+background-size: 200%;
+color: white;
+padding: 30px;
+
+
+
+cursor: pointer;
+}
+.medidas button:hover{
+    transform:skew(-3deg);
+}
+
+/* SECCION COLCHONES RESORTE INDIVIDUAL */
+
+.dubai{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: solid 1px black;
+    box-shadow: 10px 10px 10px 10px black;
+}
+.cartapoket{
+    width: 100%;
+    margin: auto;
+
+   
+}
+.cartapoket h2{
+    text-align: center;
+    font-size: 30px;
+font-style: oblique;
+text-align: center;
+padding-top: 30px;
+
+}
+.cartapoket img{
+    display: block;
+width: 70%;
+padding: 30px;
+margin: auto;
+;
+
+
+}
+.cartapoket p{
+    text-align: center;
+    font-size: 30px;
+font-style: oblique;
+text-align: center;
+padding-top: 30px;
+
+
+}
+.costo{
+    width: 100%;
+    display: block;
+
+}
+.costo p{
+   
+    text-align: center;
+    font-size: 30px;
+font-style: oblique;
+text-align: center;
+padding-top: 30px;
+
+}
+.datacarta{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.datacarta p{
+
+    text-align: center;
+    font-size: 20px;
+font-style: italic;
+text-align: center;
+padding: 30px;
+background-color: black;
+color: white;
+
+
+}
+.datacarta img{
+    width: 200px;
+    margin: auto;
+}
+/* SECCION MEJORES MARCAS */
+
+.marcas-las h2{ 
+    
+
+padding: 10px ;
+font-size: 30px;
+font-style: oblique;
+text-align: center;
+margin-top: 30px;
+
+
+}
+.marcas-las img{
+width: 105px;
+margin: auto;
+flex-wrap: wrap;
+
+}
+/* ESTO LO COMPARTEN LAS GALERIAS DE PRODUCTOS */
+
+.container{
+
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+
+}
+.card{
+width: 295px;
+height: auto;
+margin: 20px;
+border:0.2px solid ;
+border-radius: 9px;
+overflow: hidden;
+background-color: white;
+box-shadow:0px 1px 10px rgba (0,0,0,0.2);
+cursor: default;
+transition: all 400ms ease;
+}
+.card:hover{
+box-shadow: 5px 1px 10px rgba(0,0,0,0.2);
+
+}
+.card img{
+width: 300px;
+height: 300px;
+
+}
+.contenido{
+padding: 15px;
+text-align: center;
+}
+
+.contenido p{
+padding: 15px;
+line-height: 1.5;
+border:0.5 solid white;
+border-radius: 8px;
+color: white;
+background-color:black;
+}
+.contenido h3{
+font-weight: 600;
+margin-bottom: 15px;
+
+}
+
+.contenido a{
+text-decoration: none;
+display: inline-block;
+padding: 10px;
+margin-top: 10px;
+color:white;
+border: 1px solid #2fb4cc;
+border-radius: 4px;
+background-color: black;
+transition: all 400ms ease;
+}
+/* ACA ARRANCA LA SECCION COLCHONES ESPUMA */
+
+.tituloespuma{
+margin: auto;
+
+background-color:black;
+width: 100%;
+text-align: center;
+
+
+}
+.tituloespuma h1{
+text-align: center;
+font-size: 50px;
+padding: 20px 20px;
+font-style: oblique;
+color: white;
+}
+
+
+/* ACA ARRANCA LA GALERIA RESORTES */
+.tituloresorte{
+margin-top: 20px;
+display: flex;
+background-color:black;
+width: 100%;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+.tituloresorte h1{
+font-style: oblique;
+font-size: 50px;
+padding: 20px 20px;
+color: white;
+text-align: center;
+
+}
+/* ACA ARRANCA GALERIA SOMMIERS */
+.titulosommier{
+margin-top: 20px;
+display: flex;
+background-color:black;
+width: 100%;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+.titulosommier h1{
+font-style: oblique;
+color: white;
+
+font-size: 50px;
+padding: 20px 20px;
+text-align: center;
+
+}
+/* ACA ARRANCA GALERIA ALMOHADAS */
+.tituloalmohada{
+margin-top: 20px;
+display: flex;
+background-color:black;
+width: 100%;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+.tituloalmohada h1{
+
+font-size: 50px;
+padding: 20px 20px;
+font-style: oblique;
+color: white;
+text-align: center;
+}
+/* ACA ARRANCA GALERIA ROPA DE BLANCO */
+
+.tituloblanco{
+margin-top: 20px;
+display: flex;
+background-color:black;
+width: 100%;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.tituloblanco h1{
+text-align: center;
+font-size: 50px;
+padding: 20px 20px;
+font-style: oblique;
+color: white;
+}
+
+
+
+/* ACA ARRANCA SECCION TESTIMONIOS */
+
+.testimonios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.testimonios__header{
+    margin: 50px 0px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.testimonios__header h1{
+    font-size: 2.9rem;
+    font-weight: 50;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+.testimonios__header span{
+    font-size: 2.2rem;
+    color: black;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+
+}
+.testimonios__contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.testimonios__caja{
+    width: 500px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+
+}
+.perfil-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 30px;
+}
+.perfil-img img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+.perfil{
+    display: flex;
+    align-items: center;
+
+}
+.name-user{
+    display: flex;
+    flex-direction: column;
+}
+.name-user strong{
+    color: black;
+    font-size: 1.3rem;
+}
+.name-user span{
+    color: lightslategray;
+}
+.reseñas{
+    color: rgba(233, 211, 8, 0.596);
+
+    
+}
+.caja-top{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.comentarios__clientes p{
+    color: #6C6666;
+}
+/* ACA ARRANCA EL FOOTER */
+
+footer{
+display: flex;
+flex-wrap: wrap;
+height: auto;
+width: 100%;
+align-items: center;
+justify-content: center;
+margin: auto;
+
+
+}
+
+.container__footer{
+background-image: url(../assets/img/black-background-images-arranged-with-curved-shapes-vector.jpg);
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+max-width: 1200px;
+
+
+
+}
+.box__footer{
+display: flex;
+flex-direction: column;
+margin: 10px;
+padding: 5px;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.box__footer .logo img{
+width: 200px;
+opacity: 80%;
+border-radius: 5px;
+align-items: center;
+justify-content: center;
+
+
+
+}
+.terms{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    max-width: 350px;
+
+font-weight: 500;
+color: white;
+font-size: 25px;
+}
+
+
+
+.box__footer h2{
+
+color: white;
+font-weight: 700;
+text-align: center;
+
+}
+
+.box__footer a{
+margin-top: 10px;
+color: white;
+font-weight: 600;
+list-style: none;
+display: flex;
+}
+.terms p{
+    padding: 30px;
+    text-align: center;
+}
+.terms img{
+    margin-top: 20px;
+    opacity: 80%;
+    
+}
+.box__footer p{
+color: rgba(255, 255, 255, 0.795);
+text-align: center;
+}
+
+
+.box__footer a:hover{
+opacity: 0.8;
+}
+
+
+.box__footer a{
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.box__footer a .fab{
+    text-align: center;
+
+font-size: 45px;
+
+}
+
+.box__copyright{
+max-width: 1200px;
+margin: auto;
+text-align: center;
+
+
+}
+
+.box__copyright p{
+margin-top: 20px;
+color:white;
+text-align: center;
+}
+
+.box__copyright hr{
+border: none;
+height: 1px;
+background-color : white;
+}
+
