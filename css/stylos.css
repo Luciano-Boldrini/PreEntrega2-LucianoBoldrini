@@ -100,12 +100,21 @@ padding: 10px ;
 font-size: 30px;
 font-style: oblique;
 text-align: center;
-margin-top: 30px;
+margin-top: 20px;
 
 }
+.productos-nuest{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+}
 .verificado{
-margin: 30px 10px ;
-justify-content: center;
+
+
 display: flex;
 flex-wrap: wrap;
 width: 100%;
@@ -125,6 +134,7 @@ float: left;
 width: 200px;
 height: 300px;
 padding-bottom: 40px;
+justify-content: center;
 
 }
 
@@ -183,28 +193,40 @@ margin-top: 20px;
 
 
 .galeria{
-margin: 20px 20px;
-box-shadow: 0 4px 8px 0 lightgray, 0 6px 20px rgba(0,0,0,0.19);
-float: left;
-width: 200px;
-height: auto;
-padding: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+   margin: auto;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px rgba(0,0,0,0.19);
+    float: left;
+    width: 200px;
+    height: 300px;
+    padding-bottom: 40px;
+    justify-content: center;
+    
 }
-
+.nue-cos{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 20px;
+}
 
 .galeria img{
 width: 100%;
 height: auto;
+margin: auto;
 }
 
 
-.galeria:hover{
+.pie:hover{
 border: 2px solid lightslategrey;
 transform: rotate(-3deg);
 }
 
 
 .pie{
+    align-items: center;
+    justify-content: center;
 text-align: center;
 text-shadow: 2px 2px 5px grey;
 padding: 10px;
@@ -253,6 +275,7 @@ color:white;
 font-size:x-large;
 font-style:oblique;
 border: 1px solid black;
+border-radius: 10px;
 background-color: black;
 padding: 20px 10px;
 margin: 30px ;
@@ -272,10 +295,11 @@ align-items: center;
 
 
 .elijo-espuma p{
-    width: 300px;
-font-size: medium;
+width: 300px;
+font-size:larger;
 font-style: italic;
 font-weight: 100;
+color: black;
 
 text-align: center;
 padding: 10px;
@@ -406,10 +430,16 @@ color: white;
 }
 .datacarta img{
     width: 200px;
-    margin: auto;
+    
 }
 /* SECCION MEJORES MARCAS */
+.marcas-las{
+   
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 
+}
 .marcas-las h2{ 
     
 
@@ -422,7 +452,10 @@ margin-top: 30px;
 
 }
 .marcas-las img{
+    display: flex;
 width: 105px;
+justify-content: center;
+align-items: center;
 margin: auto;
 flex-wrap: wrap;
 
@@ -682,6 +715,7 @@ color: white;
 /* ACA ARRANCA EL FOOTER */
 
 footer{
+    margin: auto;
 display: flex;
 flex-wrap: wrap;
 height: auto;
@@ -700,6 +734,8 @@ flex-direction: row;
 flex-wrap: wrap;
 
 max-width: 1200px;
+align-items: center;
+justify-content: center;
 
 
 
@@ -726,10 +762,13 @@ justify-content: center;
 
 }
 .terms{
+
     display: flex;
     flex-direction: column;
     width: 200px;
     max-width: 350px;
+    align-items: center;
+    justify-content: center;
 
 font-weight: 500;
 color: white;
@@ -752,6 +791,7 @@ color: white;
 font-weight: 600;
 list-style: none;
 display: flex;
+text-align: center;
 }
 .terms p{
     padding: 30px;
@@ -801,6 +841,7 @@ text-align: center;
 }
 
 .box__copyright hr{
+    text-align: center;
 border: none;
 height: 1px;
 background-color : white;
