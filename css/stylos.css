@@ -13,6 +13,7 @@
 
 
 /* NAVBAR bootstrap + css */
+
 .navBar {
     background-color: white;
     margin-left: 30px;
@@ -37,23 +38,26 @@
 
 }
 
+
 .dropnavBar li a:hover {
     background-color: rgba(214, 213, 131, 0.568);
     ;
 
 }
+.barraNav{
+    justify-content: flex-end;
+}
 
 /* MEDIA NAVBAR */
 
-@media(max-width: 768px) {
+@media(max-width: 1020px) {
     .logonav {
-
 
         width: 350px;
     }
 }
 
-@media(max-width: 550px) {
+@media(max-width: 768px) {
     .logonav {
 
 
@@ -61,11 +65,19 @@
     }
 }
 
-@media(max-width: 360px) {
+@media(max-width: 550px) {
     .logonav {
 
 
         width: 150px;
+    }
+}
+
+@media(max-width: 360px) {
+    .logonav {
+
+
+        width: 120px;
     }
 }
 
@@ -85,7 +97,8 @@
 }
 
 .comienzo img {
-    width: 100px;
+    width: 75px;
+    
 }
 
 
@@ -103,6 +116,8 @@
     text-shadow: 2px 3px 5px black;
     text-align: center;
     font-size: 40px;
+    text-decoration:overline 2px solid black;
+    
 
 }
 
@@ -131,9 +146,11 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+
+    justify-content:space-around;
+    margin: auto;
+    
+  
 
 }
 
@@ -275,7 +292,7 @@
 
 
 .elijo-espuma {
-    width: 320px;
+    width: 300px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -334,37 +351,44 @@
     transform: rotate(-3deg);
 }
 
-
+/* ACA ESTA LA SECCION TODAS LAS MEDIDAS */
 .medidas {
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    height: auto;
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     padding: 30px;
+    margin: 20px 30px;
 
 }
 
 
 .medidas h2 {
+    width: 100%;
+   
     font-size: 30px;
     font-style: oblique;
     text-align: center;
-    padding-top: 30px;
+   margin-top: 30px;
+   padding: 20px 20px;
 
 }
 
 
 .medidas button {
-    margin: 20px 30px;
+    text-align: center;
     width: 150px;
+   
     display: flex;
     flex-direction: row;
     background-color: black;
-    background-size: 200%;
-    color: white;
     padding: 30px;
+    
+    color: white;
+
 
 
 
@@ -374,6 +398,7 @@
 .medidas button:hover {
     transform: skew(-3deg);
 }
+
 
 /* SECCION COLCHONES RESORTE INDIVIDUAL */
 
@@ -800,8 +825,6 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
-    max-width: 1200px;
     align-items: center;
     justify-content: center;
 
@@ -900,7 +923,9 @@ footer {
 }
 
 .box__copyright {
-    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
     margin: auto;
     text-align: center;
 
