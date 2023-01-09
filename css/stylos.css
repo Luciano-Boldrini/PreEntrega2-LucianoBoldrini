@@ -112,7 +112,7 @@
 
 .titulopgnserv {
     padding: 10px;
-    color: white;
+    color: rgb(0, 0, 32);
     text-shadow: 2px 3px 5px black;
     text-align: center;
     font-size: 40px;
@@ -353,48 +353,50 @@
 
 /* ACA ESTA LA SECCION TODAS LAS MEDIDAS */
 .medidas {
+    margin: auto;
     width: 100%;
     display: flex;
+    flex-direction: row;
     height: auto;
     flex-wrap: wrap;
-    text-align: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    text-align: center;
     padding: 30px;
-    margin: 20px 30px;
+    gap: 10px;
 
 }
 
 
 .medidas h2 {
     width: 100%;
-   
     font-size: 30px;
     font-style: oblique;
     text-align: center;
-   margin-top: 30px;
-   padding: 20px 20px;
+    margin-top: 30px;
+    padding: 20px 20px;
 
 }
 
 
 .medidas button {
-    text-align: center;
-    width: 150px;
-   
     display: flex;
     flex-direction: row;
+    text-align: center;
+    width: 150px;
     background-color: black;
     padding: 30px;
     
-    color: white;
-
-
-
-
-    cursor: pointer;
 }
+.medidas a{
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 5px;   
+    cursor: pointer;
 
+}
 .medidas button:hover {
     transform: skew(-3deg);
 }
@@ -845,8 +847,8 @@ footer {
 
 .box__footer .logo img {
     width: 200px;
-    opacity: 80%;
-    border-radius: 5px;
+    opacity: 20%;
+    
     align-items: center;
     justify-content: center;
 
